@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="PictureShrinker.exe" version="1.0.0.2" publicKeyToken="ec5becd2d9fd1d75" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PictureShrinker" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="PictureShrinker.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PictureShrinker.exe" size="13824">
+      <assemblyIdentity name="PictureShrinker" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>N5q0kAEXGGqCdg2xHrnWLUUwbHM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=BEAST\Montage" issuerKeyHash="504dd3d23d7d45cf5b9c29eaefa90157f2ba068d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>s6/Y1MiM+gbVPHHLAoY4QmnUCcA=</DigestValue></Reference></SignedInfo><SignatureValue>oTTGKlcIw/z3KFV9RUULQapja3P1NUiqpNBCLcEYCZ2YBLLkSx6BUP7wumj8bsBrJ25/uWLNx521JRA2E7yxLz52dHmMc6cRf0eD2SpgDZiNDGfOh6EJWkhHMA7mBIcIZM6cVg+m8yExPIsyAf5+hffq3K8VLd0fHI2Hj74DN5g=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>87eVO3tLjBTbU/AAQueUpqANFQWOGqmTvFtBNMlxZMl8T8DDn4w0XC4crKVTea5ustkU372/F1Z6Cu+mtTTJ1AyqgbxMFGnynv9j5phu55aRtCh0unvey035/CZyDAcfJrkO6oaU4mAoRohSh8/GE+4kyPA/6TdEJhTBFxpLtp8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c009d46942388602cb713cd506fa8cc8d4d8afb3" Description="" Url=""><as:assemblyIdentity name="PictureShrinker.exe" version="1.0.0.2" publicKeyToken="ec5becd2d9fd1d75" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BEAST\Montage</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>VZ81/Gb19ZWiROGBKdz8crK1B48=</DigestValue></Reference></SignedInfo><SignatureValue>6Qa+SoATnn7UPQ6fEg8dEvzqAvkO/YzateeGnX6hwjsL4prm3Cdg2fnSBNJxTVt5+F/YjQwdyKm/8HlQ51Vc/6iHduAhpwUv4WtJoSuqcIbEAzqb4NDDL/4KA2U8IDyP6j5nzKwC/hSQQrnE8ApHRzT/BBgldKD7xPS6EXiVq/g=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>87eVO3tLjBTbU/AAQueUpqANFQWOGqmTvFtBNMlxZMl8T8DDn4w0XC4crKVTea5ustkU372/F1Z6Cu+mtTTJ1AyqgbxMFGnynv9j5phu55aRtCh0unvey035/CZyDAcfJrkO6oaU4mAoRohSh8/GE+4kyPA/6TdEJhTBFxpLtp8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQfzzSu/cc7Y5J0cimZJxuETANBgkqhkiG9w0BAQUFADAlMSMwIQYDVQQDHhoAQgBFAEEAUwBUAFwATQBvAG4AdABhAGcAZTAeFw0xNDEwMDIxODM3MThaFw0xNTEwMDMwMDM3MThaMCUxIzAhBgNVBAMeGgBCAEUAQQBTAFQAXABNAG8AbgB0AGEAZwBlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDzt5U7e0uMFNtT8ABC55SmoA0VBY4aqZO8W0E0yXFkyXxPwMOfjDRcLhyspVN5rm6y2RTfvb8XVnoK76a1NMnUDKqBvEwUafKe/2PmmG7nlpG0KHS6e97LTfn8JnIMBx8muQ7qhpTiYChGiFKHz8YT7iTI8D/pN0QmFMEXGku2nwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBACwlX1UQtaqHUJh5rWXsQiHjbzOUPK+tnJZYiUc5onNDppJoyxAlcSZrHptRr5y8uhDoXJeVH9wzw1XPaJe7unQj4OWeP40XykjY5UIn/pnwklgfmr7x/llsHHzI5pkkVLXyumR9oks0kVmIzsqv2aTMn+7Huu0RA1yQIj0vP8RH</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

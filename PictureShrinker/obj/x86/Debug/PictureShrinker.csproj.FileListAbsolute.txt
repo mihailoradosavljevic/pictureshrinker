@@ -1,0 +1,13 @@
+F:\VSTUDIO\CSHARP\PictureShrinker\PictureShrinker\bin\Debug\PictureShrinker.exe
+F:\VSTUDIO\CSHARP\PictureShrinker\PictureShrinker\bin\Debug\PictureShrinker.pdb
+F:\VSTUDIO\CSHARP\PictureShrinker\PictureShrinker\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\VSTUDIO\CSHARP\PictureShrinker\PictureShrinker\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+F:\VSTUDIO\CSHARP\PictureShrinker\PictureShrinker\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+F:\VSTUDIO\CSHARP\PictureShrinker\PictureShrinker\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\VSTUDIO\CSHARP\PictureShrinker\PictureShrinker\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\VSTUDIO\CSHARP\PictureShrinker\PictureShrinker\obj\x86\Debug\PictureShrinker.exe
+F:\VSTUDIO\CSHARP\PictureShrinker\PictureShrinker\obj\x86\Debug\PictureShrinker.pdb
+F:\VSTUDIO\CSHARP\PictureShrinker\PictureShrinker\bin\Debug\PictureShrinker.exe.manifest
+F:\VSTUDIO\CSHARP\PictureShrinker\PictureShrinker\bin\Debug\PictureShrinker.application
+F:\VSTUDIO\CSHARP\PictureShrinker\PictureShrinker\obj\x86\Debug\PictureShrinker.exe.manifest
+F:\VSTUDIO\CSHARP\PictureShrinker\PictureShrinker\obj\x86\Debug\PictureShrinker.application
